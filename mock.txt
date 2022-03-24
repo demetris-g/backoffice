@@ -1,0 +1,21 @@
+Item Code: 
+PLU Number: 
+SupplierCode: 
+Name: 
+Priority: 
+group: 
+Type: 
+BonusPoints: 
+Average: 
+Last: 
+Unit: 
+Price1: 
+PrevPrice: 
+Vat Rate: 
+Profit: 
+Margin: 
+Profit Amount: 
+Seat In: 
+Takeway: 
+Delivery: 
+Staff: 

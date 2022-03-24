@@ -1,0 +1,116 @@
+.items-form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-radius: 12px;
+    width: max-content;
+    margin-right: 50%;
+    margin: 1%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+  
+  .items-form__control label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+    margin-right: 1rem;
+    
+  }
+  
+  .items-form__control input[type=text] {
+    font: inherit;
+    /* padding: 0.5rem; */
+    border-radius: 10px;
+    /* margin-left: 0.5rem; */
+    border: 4px solid #ccc;
+    width: 10rem;
+    height: 32px;
+    max-width: 75%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+  .items-form__control input[type=number] {
+    font: inherit;
+    /* padding: 0.5rem; */
+    border-radius: 10px;
+    /* margin-left: 0.5rem; */
+    border: 4px solid #ccc;
+    width: 10rem;
+    height: 32px;
+    max-width: 75%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }  
+  .items-form__control input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    margin: 1%;
+    margin-left: 0.5rem;
+
+}
+.items-form__control input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 1px solid #555555;
+    border-style: double;
+    border-radius: 3px;
+    background-color: white;
+}
+.items-form__control input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+  
+  .items-form__actions {
+    text-align: right;
+  }
+
+
+  .items-form__action button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #ffffff;
+    background-color: #4ea8dd;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .items-form__action button:hover,
+  .items-form__action button:active {
+    background-color: #409bcf;
+    border-color: #510674;
+  }
+  
+  .items-form__action button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .items-form__action button.alternative:hover,
+  .items-form__action button.alternative:active {
+    background-color: #ddb3f8;
+  }  
