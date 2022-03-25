@@ -12,30 +12,24 @@
     width: max-content;
     margin-right: 50%;
     margin: 1%;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
 }
-  
-  .items-form__control label {
+
+.center {
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.items-form__control label {
     font-weight: bold;
     margin-bottom: 1rem;
     display: block;
     margin-right: 1rem;
-    
-  }
-  
-  .items-form__control input[type=text] {
-    font: inherit;
-    /* padding: 0.5rem; */
-    border-radius: 10px;
-    /* margin-left: 0.5rem; */
-    border: 4px solid #ccc;
-    width: 10rem;
-    height: 32px;
-    max-width: 75%;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  }
+}
 
-  .items-form__control input[type=number] {
+.items-form__control input[type=text] {
     font: inherit;
     /* padding: 0.5rem; */
     border-radius: 10px;
@@ -44,15 +38,28 @@
     width: 10rem;
     height: 32px;
     max-width: 75%;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  }  
-  .items-form__control input[type=checkbox] {
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.items-form__control input[type=number] {
+    font: inherit;
+    /* padding: 0.5rem; */
+    border-radius: 10px;
+    /* margin-left: 0.5rem; */
+    border: 4px solid #ccc;
+    width: 10rem;
+    height: 32px;
+    max-width: 75%;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.items-form__control input[type=checkbox] {
     position: relative;
     cursor: pointer;
     margin: 1%;
     margin-left: 0.5rem;
-
 }
+
 .items-form__control input[type=checkbox]:before {
     content: "";
     display: block;
@@ -66,6 +73,7 @@
     border-radius: 3px;
     background-color: white;
 }
+
 .items-form__control input[type=checkbox]:checked:after {
     content: "";
     display: block;
@@ -81,13 +89,11 @@
     left: 6px;
 }
 
-  
-  .items-form__actions {
+.items-form__actions {
     text-align: right;
-  }
+}
 
-
-  .items-form__action button {
+.items-form__action button {
     font: inherit;
     cursor: pointer;
     padding: 1rem 2rem;
@@ -96,21 +102,21 @@
     color: white;
     border-radius: 12px;
     margin-right: 1rem;
-  }
-  
-  .items-form__action button:hover,
-  .items-form__action button:active {
+}
+
+.items-form__action button:hover,
+.items-form__action button:active {
     background-color: #409bcf;
     border-color: #510674;
-  }
-  
-  .items-form__action button.alternative {
+}
+
+.items-form__action button.alternative {
     color: #220131;
     border-color: transparent;
     background-color: transparent;
-  }
-  
-  .items-form__action button.alternative:hover,
-  .items-form__action button.alternative:active {
+}
+
+.items-form__action button.alternative:hover,
+.items-form__action button.alternative:active {
     background-color: #ddb3f8;
-  }  
+}

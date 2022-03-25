@@ -4,7 +4,9 @@ const Layout = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <h4>BackOffice</h4>
+      <a className="nav-link" href="/">
+      <a class="navbar-brand" href="/home">BackOffice</a>
+      </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,8 +21,8 @@ const Layout = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
-                Home
+              <a className="nav-link" href="/login">
+                Login
               </a>
             </li>
             <li className="nav-item">
